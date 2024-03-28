@@ -18,7 +18,7 @@ export const PackageCard =(props)=>{
               <div className="price">{props.price}</div>
               <div className="go-btn">
                 <Link to={`/locations/${props.location}`}>
-                <button className="gobtn">View plans</button>
+                <button className="gobtn">Толығырақ</button>
                 </Link>
               </div>
             </div>

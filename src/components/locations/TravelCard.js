@@ -12,7 +12,7 @@ export const TravelCard=(props)=> {
           </p>
           <div className="btn">
             <a href="#packages">
-              <button className="chk-btn">View Packages</button>
+              <button className="chk-btn">Пакеттерді тексеру</button>
             </a>
           </div>
         </div>

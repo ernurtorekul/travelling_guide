@@ -7,11 +7,11 @@ export const Book = () => {
     <>
       <section className="contact" id="contact">
         <h2>
-          Book your tickets
+          Билеттерге тапсырыс беру
           <hr />
         </h2>
         <div className="book-info">
-          <p>( Fill out the form below and we will get back to you with a confirmation as soon as possible. )</p>  
+          <p>( Төмендегі форманы толтырыңыз, және бізден байланыс күтіңіз. )</p>  
         </div>
         <div className="row">
           <div className="img">

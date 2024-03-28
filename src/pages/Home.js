@@ -13,11 +13,11 @@ export const Home = () => {
         <section className="home" id="home">
           <div className="content">
             <h3>
-              Begin your <span id="diff">A</span>dventures with us
+              Саяхатыңызды бізбен бірге ұмытылмастай етіңіз <span id="diff">!</span>
+              {/* <p style="text-transform: none;">Жақындарыңызға қуаныш сыйлаңыз</p> */}
             </h3>
-            <p>Explore the world with us for the best travel experience</p>
             <Link className="btn" to="/locations">
-              <button className="exp-btn">Explore</button>
+              <button className="exp-btn">Толығырақ</button>
             </Link>
           </div>
 
@@ -30,31 +30,37 @@ export const Home = () => {
               <i className="fas fa-envelope" id="ficons"></i>
               <p>
                 <a href="mailto:info.trabebo@gmail.com">
-                  info.trabebo@gmail.com
+                  bizdin@gmail.com
                 </a>
               </p>
             </div>
-            <div className="socialm">
+            {/* <div className="socialm">
               <i className="fab fa-instagram" id="ficons"></i>
               <p>trabebo_1</p>
-            </div>
+            </div> */}
             <div className="call">
               <i className="fas fa-phone-alt" id="ficons"></i>
               <p>
-                <a href="tel:7259987584">+91-7259987584</a>
+                <a href="tel:7259987584">+7 772 234 43 34</a>
               </p>
             </div>
           </div>
         </section>
       </div>
+      <Services />
+      <hr id="line" />
+      <PackageSection />
+      <hr id="line" />
       <BookSection />
+      <hr id="line" />
+      {/* <BookSection />
       <hr id="line" />
       <PackageSection />
       <hr id="line" />
       <Services />
       <hr id="line" />
       <ContInfo />
-      <hr id="line" />
+      <hr id="line" /> */}
     </>
   );
 };

@@ -8,7 +8,7 @@ export const BookSection = () => {
     <>
       <div className="container2">
         <section className="book" id="book">
-          <h1>Book your tickets now!</h1>
+          <h1>Жақындарыңа қуаныш сыйла!</h1>
 
           <div className="row">
             <div className="image">
@@ -16,13 +16,13 @@ export const BookSection = () => {
             </div>
             <div className="box">
               <h2>
-                Book Your tickets
+                Билеттерге тапсырыс бер
                 <hr />
               </h2>
-              <p>One step away from your trip! What are you waiting for?</p>
+              <p>Армандаған сапарыңызға бір қадам жақындаңыз !</p>
               <Link to="/contact">
                 <div className="btn">
-                  <button className="book-btn">Book now</button>
+                  <button className="book-btn">Тапсырыс беру</button>
                 </div>
               </Link>
             </div>

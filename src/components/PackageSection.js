@@ -2,6 +2,17 @@ import "./PackageSection.css";
 import { Link } from "react-router-dom";
 import { PackageCard } from "./PackageCard";
 import himachal from "../media/himachalbg.jpg";
+
+import aishabibi from "../media/aishabibi/aishabibi1.jpg";
+import kishmish from "../media/kishmish/kishmish1.jpg";
+import merke from "../media/merke/merkesanatori1.jpg";
+import tekturmas from "../media/tekturmas/tekturmas1.jpeg";
+
+import aksu from "../media/aksu/aksu1.jpg";
+import kordai from "../media/kordai/kordai1.JPG";
+import zhualy from "../media/zhualy/zhualy1.jpg";
+import turar from "../media/turar/turar1.jpg";
+
 import dubai from "../media/dubai.jpg";
 import europe from "../media/europebg.jpg";
 import kerala from "../media/keralabg.jpg";
@@ -13,66 +24,67 @@ import goa from "../media/goa.jpg";
 export const PackageSection = () => {
   const packageInfoRow1 = [
     {
-      place: "himachal",
-      info: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesentium repellat repudiandae iste veritatis cumque vitae!",
-      img: himachal,
-      price: "4000-5000 INR",
+      place: "Aisha-Bibi",
+      info: "'Айша бибі' кесенесі — ХІ-XII ғасырлардағы сәулет өнерінің көрнекті ескерткіші. Жамбыл облысы Жамбыл ауданында Айша бибі ауылында орналасқан.",
+      img: aishabibi,
+      price: "8000-15000 tg",
     },
     {
-      place: "goa",
-      info: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesentium repellat repudiandae iste veritatis cumque vitae!",
-      img: goa,
-      price: "4000-5000 INR",
+      place: "Merke",
+      info: "'Мерке шипажайы' Мерке аудан орталығынан 12 км қашықтықта орналасқан және Қырғыз Алатауының кең Меркі шатқалында, теңіз деңгейінен 750 м биіктікте орналасқан.",
+      img: merke,
+      price: "20000-50000 tg",
     },
     {
-      place: "kerala",
-      info: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesentium repellat repudiandae iste veritatis cumque vitae!",
-      img: kerala,
-      price: "4000-5000 INR",
+      place: "Tekturmas",
+      info: "'Тектұрмас' – ежелгі қаланың алтын көпірі. Тау басында тұрған этно-тарихи кешен. Тектұрмас – ежелгі қаланың алтын көпірі.",
+      img: tekturmas,
+      price: "4000-10000 tg",
     },
     {
-      place: "rajasthan",
-      info: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesentium repellat repudiandae iste veritatis cumque vitae!",
-      img: rajasthan,
-      price: "4000-5000 INR",
+      place: "Kishmish",
+      info: "'Kishmish' шайханасы-бұл ең алдымен Шығыс әлеміне, содан кейін ұйғыр, еуропалық, итальяндық және жапондық тағамдар әлеміне енетін орын.",
+      img: kishmish,
+      // price: "2000 tg + ",
     },
   ];
   const packageInfoRow2 = [
     {
-      place: "dubai",
-      info: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesentium repellat repudiandae iste veritatis cumque vitae!",
-      img: dubai,
-      price: "4000-5000 INR",
+      place: "Aksu Zhabagaly",
+      info: "'Ақсу-Жабағылы' қорығы — Талас Алатауының (Батыс Тянь-Шань) солтүстік-батыс бөлігін және Өгем жотасын алып жатқан Қазақстандағы тұңғыш қорық.",
+      img: aksu,
+      // price: "4000-5000 INR",
     },
     {
-      place: "europe",
-      info: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesentium repellat repudiandae iste veritatis cumque vitae!",
-      img: europe,
-      price: "4000-5000 INR",
+      place: "Zhualy",
+      info: "'Жуалы ауданы' Теріс (Асы) өзенінің жоғары және орта ағысында, жерінің басым бөлігін Жуалы таулы үстірті (биіктігі орталығында 900 м, шет жақтарында 1200 м) алып жатыр.",
+      img: zhualy,
+      // price: "4000-5000 INR",
     },
     {
-      place: "thailand",
-      info: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesentium repellat repudiandae iste veritatis cumque vitae!",
-      img: thailand,
-      price: "4000-5000 INR",
+      place: "Kulan",
+      info: "'Тұрар Рысқұлов' ауданы — Жамбыл облысының оңтүстігінде орналасқан әкімшілік-аумақтық бөлініс. 1938 жылы Луговой ауданы болып құрылған.",
+      img: turar,
+      // price: "4000-5000 INR",
     },
     {
-      place: "maldives",
-      info: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesentium repellat repudiandae iste veritatis cumque vitae!",
-      img: maldives,
-      price: "4000-5000 INR",
+      place: "Kordai",
+      info: "'Қордай' ауданының жері негізінен таулы. Климаты континенттік, қысы-жазы жиі-жиі Қордай желі соғып тұрады.",
+      img: kordai,
+      // price: "4000-5000 INR",
     },
   ];
   return (
     <>
       <div className="container3">
         <section className="packages" id="packages">
-          <h1>Best Selling Destinations!</h1>
+          <h1>Топ 4 туристік мекендер!</h1>
           <div className="outerbox">
-            <h2>
+            <hr/>
+            {/* <h2>
               Domestic
               <hr />
-            </h2>
+            </h2> */}
             <div className="row1">
               {packageInfoRow1.map((element) => {
                 return (
@@ -87,7 +99,7 @@ export const PackageSection = () => {
               })}
             </div>
             <h2>
-              International
+              Жамбыл облысы аудандары
               <hr />
             </h2>
             <div className="row2">
@@ -105,7 +117,7 @@ export const PackageSection = () => {
             </div>
             <div className="morebtn">
               <Link to="/locations">
-                <button className="more-btn">Explore all</button>
+                <button className="more-btn">Толығырақ</button>
               </Link>
             </div>
           </div>

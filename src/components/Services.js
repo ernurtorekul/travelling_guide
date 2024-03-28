@@ -4,35 +4,30 @@ import { ServiceCard } from "./ServiceCard";
 export const Services = () => {
   const serviceInfoRow1 = [
     {
-      header: "Best Flights",
-      info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maioresquis ullam possimus, maxime rerum aspernatur!",
-      icon: "fas fa-plane-departure",
+      header: "Ең Жақсы Маршруттар",
+      info: "Біздің аймақтың сұлулығын көрсетуге арналған қолмен таңдалған маршруттарымызды таңдаңыз.",
+      icon: "fas fa-bus",
     },
     {
-      header: "Best deals",
-      info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maioresquis ullam possimus, maxime rerum aspernatur!",
+      header: "Үздік Ұсыныстар",
+      info: "Біздің кең желімізден және 50-ден астам жетекші туристік орындармен серіктестігіміз арқылы турлар мен тәжірибелерге жеңілдіктерді пайдаланыңыз.",
       icon: "fas fa-rupee-sign",
-    },
-    {
-      header: "Railway Bookings",
-      info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maioresquis ullam possimus, maxime rerum aspernatur!",
-      icon: "fas fa-subway",
-    },
+    }
   ];
   const serviceInfoRow2 = [
     {
-      header: "Food And Drinks",
-      info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maioresquis ullam possimus, maxime rerum aspernatur!",
+      header: "Тамақ Және Сусындар",
+      info: "Біздің аймақтың бай дәмін әр түрлі асхана нұсқаларымен тамашалаңыз.",
       icon: "fas fa-utensils",
     },
     {
-      header: "Hotels",
-      info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maioresquis ullam possimus, maxime rerum aspernatur!",
+      header: "Қонақ үйлер",
+      info: "Сәнді курорттардан бастап бюджеттік опцияларға дейін біз сіздің қажеттіліктеріңізге және қалауларыңызға сәйкес келетін әртүрлі қонақүйлерді ұсынамыз.",
       icon: "fas fa-hotel",
     },
     {
-      header: "Safe Travels",
-      info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maioresquis ullam possimus, maxime rerum aspernatur!",
+      header: "Қауіпсіз Саяхат",
+      info: "Сіздің қауіпсіздігіңіз біз үшін өте маңызды. Қауіпсіздіктің ең жоғары стандарттарын сақтай отырып, тәжірибелі гидтер мен сенімді тасымалдауды қамтамасыз етеміз.",
       icon: "fas fa-clinic-medical",
     },
   ];
@@ -41,7 +36,7 @@ export const Services = () => {
     <>
       <div className="container4">
         <section className="service" id="services">
-          <h1>Have a look at our services!</h1>
+          <h1>Біз ұсынамыз!</h1>
           <div className="row2">
             {serviceInfoRow1.map((element) => {
               return (

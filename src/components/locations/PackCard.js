@@ -17,7 +17,7 @@ export default function PackCard(props) {
           <div className="price">{props.price}</div>
           <Link to="/book">
             <div className="go-btn">
-              <button className="gobtn">Book now</button>
+              <button className="gobtn">Толығырақ</button>
             </div>
           </Link>
         </div>

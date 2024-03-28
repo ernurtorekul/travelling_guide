@@ -9,10 +9,10 @@ export const Error = () => {
       <div className="e-container">
         <div className="e-message">
           <img src={errorimg} alt="" id="error-img" />
-          <h1>Page not found.</h1>
-          <p>Oops! There seems to be a mistake in the URL.</p>
+          <h1>404</h1>
+          <p>Ой! URL мекенжайында қате бар сияқты.</p>
           <p>
-            Navigate back to the{" "}
+            Артқа өтіңіз{" "}
             <span>
               <Link to="/">homepage</Link>
             </span>

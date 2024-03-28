@@ -9,7 +9,7 @@ export const Searchbox = (props) => {
           {/* <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" /> */}
           <input
             type="search"
-            placeholder="Search your destination"
+            placeholder="Іздеу"
             onChange={props.handleOnChange}
           />
         </div>

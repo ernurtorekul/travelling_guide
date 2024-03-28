@@ -10,14 +10,13 @@ export const Footer = () => {
         <div className="fbox">
           <div className="aboutus">
             <h2>
-              <span id="fdiff">A</span>bout us
+              <span id="fdiff">Б</span>із туралы
             </h2>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est,
-              ullam maxime ratione porro quaerat in?
+              Біз еліміздің әсем, бірақ танымал емес жерлерін халыққа көрсетуге, зерттеуге, бағыттауға арналған жаңа стартаппыз. Еліміздің сұлулығын бірге ашайық!
             </p>
           </div>
-          <div className="branch">
+          {/* <div className="branch">
             <h2>
               <span id="fdiff">B</span>ranch Location
             </h2>
@@ -29,29 +28,29 @@ export const Footer = () => {
               loading="lazy"
               title="Brach Location"
             ></iframe>
-          </div>
+          </div> */}
           <div className="quicklinks">
             <h2>
-              <span id="fdiff">Q</span>uick Links
+              <span id="fdiff">С</span>ілтемелер
             </h2>
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/">Басты бет</Link>
               </li>
               <li>
-                <Link to="/book">Book</Link>
+                <Link to="/book">Тіркеу</Link>
               </li>
               <li>
-                <Link to="/locations">Locations</Link>
+                <Link to="/locations">Толығырақ</Link>
               </li>
               <li>
-                <Link to="/contact">Contact</Link>
+                <Link to="/contact">Байланыс</Link>
               </li>
             </ul>
           </div>
           <div className="follow">
             <h2>
-              <span id="fdiff">F</span>ollow us
+              <span id="fdiff">Б</span>ізге жазылыңыз
             </h2>
             <ul>
               <li>
@@ -66,7 +65,7 @@ export const Footer = () => {
               </li>
               <li>
                 <Link to="/" id="twitter">
-                  <i className="fab fa-twitter"></i>
+                  <i className="fab fa-telegram"></i>
                 </Link>
               </li>
             </ul>
@@ -75,7 +74,7 @@ export const Footer = () => {
         <hr />
         <div className="copy">
           <h2>
-            Copyright &copy; <span id="fdiff">T</span>rabebo 2020-21 | All
+            Copyright &copy; <span id="fdiff">B</span>izdin logo 2024 | All
             Rights Reserved
           </h2>
         </div>

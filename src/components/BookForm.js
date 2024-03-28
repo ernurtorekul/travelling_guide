@@ -14,10 +14,10 @@ export const BookForm = () => {
       )
       .then(
         (result) => {
-          alert("Booking request placed! We will contact you shortly.");
+          alert("Билет сұранысы орналастырылды! Бізден хабар күтіңіз.");
         },
         (error) => {
-          alert("An error occurred! Please try again later.");
+          alert("Қате орын алды! Кейінірек қайталап көріңіз.");
         }
       );
     e.target.reset();
@@ -26,11 +26,11 @@ export const BookForm = () => {
     <>
       <form className="form" onSubmit={handleOnSubmit}>
         <div className="inputbox">
-          <h3>Your Name*</h3>
-          <input type="text" placeholder="Name" required name="name" />
+          <h3>Аты-жөніңіз*</h3>
+          <input type="text" placeholder="аты жөн" required name="name" />
         </div>
         <div className="inputbox">
-          <h3>Email Address*</h3>
+          <h3>email почта*</h3>
           <input
             type="email"
             id="email"
@@ -41,48 +41,46 @@ export const BookForm = () => {
           />
         </div>
         <div className="inputbox">
-          <h3>Contact Number*</h3>
+          <h3>Байланыс телефоны*</h3>
           <input
             type="tel"
-            placeholder="Number"
+            placeholder="номер"
             required
-            maxlength="10"
-            pattern="[0-9]{10}"
+            maxlength="15"
             name="contact"
           />
         </div>
         <div className="inputbox">
-          <h3>Enter Your destination*</h3>
+          <h3>Қайда барғыңыз келеді?*</h3>
           <input
             type="text"
-            placeholder="destination"
+            placeholder="адрес"
             required
             name="destination"
           />
         </div>
 
         <div className="inputbox">
-          <h3>Enter the number of people</h3>
+          <h3>Адам санын енгізіңіз</h3>
           <input
             type="number"
             min="1"
-            max="15"
-            placeholder="number"
+            placeholder="1.."
             required
             name="people"
           />
         </div>
         <div className="inputbox">
-          <h3>Arrival</h3>
+          <h3>Келу күні</h3>
           <input type="date" id="cap" required name="arrival" />
         </div>
         <div className="inputbox">
-          <h3>Departure</h3>
+          <h3>Кету күні</h3>
           <input type="date" id="cap" required name="dept" />
         </div>
         <div className="sub-btn">
           <button type="submit" className="subbtn">
-            Book now
+            Тапсырыс беру
           </button>
         </div>
       </form>

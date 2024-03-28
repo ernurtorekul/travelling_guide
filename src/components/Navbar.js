@@ -7,8 +7,7 @@ export const Navbar = () => {
   return (
     <nav>
       <div className="logo">
-        <Link to="/"><span>T</span>rabebo</Link>
-        <p>Travel made easy</p>
+        <Link to="/"><span>B</span>izdin logo</Link>
       </div>
       <input type="checkbox" id="check" />
       <label for="check" className="checkbtn">
@@ -16,45 +15,45 @@ export const Navbar = () => {
       </label>
 
       <ul className="list">
-        <li id="active"><Link to="/">Home</Link></li>
-        <li><Link to="/book" id="d">Book</Link></li>
+        <li id="active"><Link to="/">Басты бет</Link></li>
+        <li><Link to="/book" id="d">Тіркеу</Link></li>
         <li id="drop">
-        <Link to="/locations" id="d">Domestic</Link>
+        <Link to="/locations" id="d">Аудандар</Link>
           <ul>
-            <li><Link to="/locations/goa" id="d">Goa</Link></li>
+            <li><Link to="/locations/goa" id="d">Меркі</Link></li>
             <li>
-            <Link to="/locations/uttarakhand" id="d">Uttarakhand</Link>
+            <Link to="/locations/uttarakhand" id="d">Шу</Link>
             </li>
             <li>
-            <Link to="/locations/kerala" id="d">Kerala</Link>
+            <Link to="/locations/kerala" id="d">Сарысу</Link>
             </li>
             <li>
-            <Link to="/locations/chennai" id="d">Chennai</Link>
+            <Link to="/locations/chennai" id="d">Жуалы</Link>
             </li>
             <li>
-            <Link to="/locations/delhi" id="d">Delhi</Link>
+            <Link to="/locations/delhi" id="d">Т.Рысқұлов</Link>
             </li>
             <li>
-            <Link to="/locations/rajasthan" id="d">Rajasthan</Link>
+            <Link to="/locations/rajasthan" id="d">Қордай</Link>
             </li>
             <li>
-            <Link to="/locations" id="d">View all..</Link>
+            <Link to="/locations" id="d">Толығырақ..</Link>
             </li>
           </ul>
         </li>
         <li id="drop">
-        <Link to="/locations" id="d">International</Link>
+        <Link to="/locations" id="d">Қала көріктері</Link>
           <ul>
-            <li><Link to="/locations/dubai" id="d">Dubai</Link></li>
-            <li><Link to="/locations/europe" id="d">Europe</Link></li>
-            <li><Link to="/locations/srilanka" id="d">SriLanka</Link></li>
-            <li><Link to="/locations/thailand" id="d">Thailand</Link></li>
-            <li><Link to="/locations/maldives" id="d">Maldives</Link></li>
-            <li><Link to="/locations" id="d">View all..</Link></li>
+            <li><Link to="/locations/dubai" id="d">Айша Бибі мазары</Link></li>
+            <li><Link to="/locations/europe" id="d">Қарахан кесенесі</Link></li>
+            <li><Link to="/locations/srilanka" id="d">Тектұрмас кешені</Link></li>
+            <li><Link to="/locations/thailand" id="d">Тараз тарихи-өлкетану мұражайы</Link></li>
+            <li><Link to="/locations/maldives" id="d">Қали Жүніс шығыс моншасы</Link></li>
+            <li><Link to="/locations" id="d">Барлығы..</Link></li>
           </ul>
         </li>
-        <li><Link to="/locations" id="d">Locations</Link></li>
-        <li><Link to="/contact" id="d">Contact</Link></li>
+        <li><Link to="/locations" id="d">Толығырақ</Link></li>
+        <li><Link to="/contact" id="d">Байланыс</Link></li>
       </ul>
     </nav>
   )

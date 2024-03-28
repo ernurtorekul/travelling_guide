@@ -7,7 +7,7 @@ export const ContInfo = () => {
     <>
       <div className="container5">
         <section className="contact" id="contact">
-          <h1>Get in touch with us.</h1>
+          <h1>Бізбен байланыста бол.</h1>
           <div className="rowlast">
             <div className="contimg">
               <img src={contact} id="contimg" alt="Contact" />
@@ -15,13 +15,13 @@ export const ContInfo = () => {
 
             <div className="box">
               <h2>
-                Contact us
+                Бізбен хабарласыңыз
                 <hr />
               </h2>
-              <p>Write to us and we will get back to you shortly.</p>
+              <p>Бізге жазыңыз, біз сізге жақын арада хабарласамыз.</p>
               <Link to="/contact">
                 <div className="btn">
-                  <button className="cont-btn">Contact</button>
+                  <button className="cont-btn">Байланыс</button>
                 </div>
               </Link>
             </div>
